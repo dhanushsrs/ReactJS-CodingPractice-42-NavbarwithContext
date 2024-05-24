@@ -1,0 +1,50 @@
+/* Write your CSS here */
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 100vh;
+}
+
+.not-found-image {
+  width: 200px;
+}
+
+.page-content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #ffffff;
+  flex-grow: 1;
+}
+
+.dark-theme-page {
+  background-color: #000000;
+}
+
+.page-heading {
+  font-family: 'Roboto';
+  color: #334155;
+  font-size: 28px;
+}
+
+.dark-theme-heading {
+  color: #ffffff;
+}
+
+.not-found-description {
+  font-family: 'Roboto';
+  color: #64748b;
+  max-width: 90%;
+  text-align: center;
+}
+
+.not-found-description-dark {
+  font-family: 'Roboto';
+  color: #f8fafc;
+  max-width: 90%;
+  text-align: center;
+}

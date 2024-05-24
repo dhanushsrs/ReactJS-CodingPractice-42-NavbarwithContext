@@ -1,0 +1,66 @@
+/* Write your CSS here */
+.navbar-container-light {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 15px;
+  background-color: white;
+  border: solid 2px #dcdcdc;
+  height: 60px;
+}
+
+.website-logo {
+  width: 40px;
+  height: 40px;
+}
+
+.middle-items {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+}
+
+.list-item {
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.link-light {
+  color: #171f46;
+  text-decoration: none;
+}
+
+.theme-button {
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.theme-img {
+  width: 40px;
+  height: 40px;
+}
+
+.navbar-container-dark {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 15px;
+  background-color: #333333;
+  height: 60px;
+}
+
+.link-dark {
+  color: white;
+  text-decoration: none;
+}
